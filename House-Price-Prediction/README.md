@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-This project implements an end-to-end machine learning regression pipeline to predict house prices using the Ames Housing dataset.
+This project implements an end-to-end machine learning regression pipeline to predict house prices using the Ames Housing dataset.       
 It demonstrates the complete ML workflow, from data preprocessing and feature engineering to model training and evaluation.
-The model predicts house prices (`SalePrice`) based on multiple structural and neighborhood-level features.
+The model predicts house prices (SalePrice) based on multiple structural and neighborhood-level features.
 
 ## 🎯 Objectives
 
@@ -58,10 +58,10 @@ Target Variable: SalePrice
 ## 🤖 Models Used
 
 * #### Linear Regression
-Baseline regression model used for comparison.
+  Baseline regression model used for comparison.
 
 * #### XGBoost Regressor
-Gradient boosting model capable of capturing complex feature relationships and improving prediction accuracy.
+  Gradient boosting model capable of capturing complex feature relationships and improving prediction accuracy.
 
 ## 📈 Results
 
