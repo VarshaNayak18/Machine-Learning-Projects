@@ -1,75 +1,68 @@
-# House Price Prediction using Machine Learning
+# 🏠 House Price Prediction using Machine Learning 
 
-## Overview
+## 📌 Overview
+This project implements an end-to-end machine learning regression pipeline to predict house prices using the Ames Housing dataset.
+It demonstrates the complete ML workflow, from data preprocessing and feature engineering to model training and evaluation.
+The model predicts house prices (`SalePrice`) based on multiple structural and neighborhood-level features.
 
-This project builds a machine learning model to predict house prices using the **Ames Housing dataset**.
-It demonstrates a complete end-to-end ML workflow including **data preprocessing, feature engineering, model training, and evaluation**.
+## 🎯 Objectives
+* Perform exploratory data analysis (EDA)
+* Handle missing values and skewed data
+* Apply feature engineering
+* Train regression models
+* Evaluate performance using standard metrics
+* Generate predictions for unseen data
 
-The goal of this project is to understand how different housing features influence sale price and to build accurate regression models.
+## 📊 Dataset
+House Prices — Advanced Regression Techniques (Kaggle)
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
 
-## Project Workflow
+Features include: Property size and living area, Number of rooms, Year built, Garage and basement details, Neighborhood information
+Target Variable: SalePrice
 
-### 1. Exploratory Data Analysis (EDA)
-
-* Correlation analysis
-* Missing value inspection
-* Feature relationship visualization
-* Heatmaps using Seaborn
-
-### 2. Data Preprocessing
-
-* Handling missing values
-* Neighborhood-based imputation
-* Numerical imputation using zero where appropriate
-* One-hot encoding for categorical variables
-* Feature scaling using `StandardScaler`
-
-### 3. Feature Engineering
-
-Examples:
-
-* `TotalBath` = combined full and half bathrooms
-* Correlation-based feature selection
-
-### 4. Model Training
-
-Models used:
-
-* Linear Regression (baseline model)
-* XGBoost Regressor
-
-Training strategy:
-
-* Train-validation split using `train_test_split`
-* Model fitting on training data
-* Validation performance evaluation
-
-### 5. Evaluation Metrics
-
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
-* R² Score
-
-## Tech Stack
-
+## 🛠 Tech Stack
+**Language**
 * Python
+**Libraries**
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
 * Scikit-learn
 * XGBoost
+**Environment**
+* Jupyter Notebook
 
-## Results
+## ⚙️ Workflow
+* Load training and test datasets
+* Perform exploratory data analysis (EDA)
+* Apply log transformation to target variable
+* Handle missing values
+* Perform feature engineering
+* Apply One-Hot Encoding to categorical variables
+* Split dataset into train and validation sets
+* Scale numerical features using StandardScaler
+* Train Linear Regression and XGBoost Regressor
+* Evaluate models using RMSE, MAE, and R²
+* Generate predictions on test data
 
-The project compares baseline regression with gradient boosting methods to improve prediction accuracy.
-Feature engineering and proper handling of missing values significantly improve model performance.
+## 🤖 Models Used
+### Linear Regression
+Baseline regression model used for comparison.
+### XGBoost Regressor
+Gradient boosting model capable of capturing complex feature relationships and improving prediction accuracy.
 
-## Future Improvements
+## 📈 Results
+The XGBoost model outperformed Linear Regression, achieving lower prediction error and better generalization.
+Evaluation Metrics
+* RMSE
+* MAE
+* R² Score
 
+## 🚀 Future Improvements
 * Hyperparameter tuning
-* Cross-validation
-* Feature importance visualization
+* Cross-validation pipeline
+* Ensemble learning methods
 * Model deployment with Streamlit
-* Pipeline automation using `sklearn.pipeline`
+* Feature importance visualization
+* Automated feature selection
