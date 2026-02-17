@@ -57,20 +57,17 @@ Target Variable: SalePrice
 
 ## 🤖 Models Used
 
-#### * Linear Regression
+* #### Linear Regression
 Baseline regression model used for comparison.
 
-#### * XGBoost Regressor
+* #### XGBoost Regressor
 Gradient boosting model capable of capturing complex feature relationships and improving prediction accuracy.
 
 ## 📈 Results
 
 The XGBoost model outperformed Linear Regression, achieving lower prediction error and better generalization.
 
-Evaluation Metrics
-* RMSE
-* MAE
-* R² Score
+Evaluation Metrics: RMSE, MAE, R² Score
 
 ## 🚀 Future Improvements
 
