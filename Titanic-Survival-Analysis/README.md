@@ -2,22 +2,11 @@
 
 ## Overview
 This project performs exploratory data analysis (EDA) and machine learning modeling on the Titanic dataset to predict passenger survival. The objective is to identify key factors influencing survival and build predictive models using supervised learning techniques.
-
 The project demonstrates the complete machine learning workflow including preprocessing, visualization, model training, and evaluation.
 
 ## Dataset
 Source: Kaggle Titanic Dataset  
 https://www.kaggle.com/c/titanic/data
-
-The dataset contains passenger information such as:
-- Pclass (Passenger class)
-- Sex (Gender)
-- Age
-- Fare
-- SibSp (Siblings/Spouses aboard)
-- Parch (Parents/Children aboard)
-- Embarked (Port of embarkation)
-- Survived (Target variable)
 
 ## Tech Stack
 - Python
@@ -53,12 +42,11 @@ The dataset contains passenger information such as:
 - Confusion matrix
 - Cross-validation
 
-## Results
-Key insights from the analysis:
-- Female passengers had higher survival rates.
-- First-class passengers were more likely to survive.
-- Age and fare influenced survival probability.
-- Random Forest achieved the best performance among tested models.
+## Key Insights
+1. Female passengers had higher survival rates.
+2. First-class passengers were more likely to survive.
+3. Age and fare influenced survival probability.
+4. Random Forest achieved the best performance among tested models.
 
 ## Potential Extensions
 - Implement XGBoost or LightGBM
