@@ -18,9 +18,11 @@ The model predicts house prices (`SalePrice`) based on multiple structural and n
 ## 📊 Dataset
 
 House Prices — Advanced Regression Techniques (Kaggle)
+
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
 
 Features include: Property size and living area, Number of rooms, Year built, Garage and basement details, Neighborhood information
+
 Target Variable: SalePrice
 
 ## 🛠 Tech Stack
@@ -55,10 +57,10 @@ Target Variable: SalePrice
 
 ## 🤖 Models Used
 
-#### Linear Regression
+#### * Linear Regression
 Baseline regression model used for comparison.
 
-#### XGBoost Regressor
+#### * XGBoost Regressor
 Gradient boosting model capable of capturing complex feature relationships and improving prediction accuracy.
 
 ## 📈 Results
