@@ -1,5 +1,6 @@
-# ML-Projects-GFG
-# Machine Learning Projects – Week 1 (21 Projects, 21 Days Challenge)
+# Machine Learning Projects 
+
+## Machine Learning Projects – Week 1 (21 Projects, 21 Days Challenge)
 This repository contains 7 Machine Learning projects completed during the first week of the **“21 Projects, 21 Days”** challenge.
 Each project demonstrates practical ML concepts using Python and popular libraries like **pandas**, **numpy**, **scikit-learn**, **matplotlib**, and **seaborn**.
 
