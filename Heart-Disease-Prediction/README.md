@@ -18,6 +18,7 @@ The goal is to demonstrate a complete preprocessing + modeling workflow using sc
 ## Dataset
 
 Heart Disease Dataset (Kaggle):
+
 https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
 
 ## Workflow
@@ -64,5 +65,4 @@ https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
 - Feature selection
 - Model deployment using Streamlit
 - Adding pipeline-based preprocessing
-
-Comparing more classification models
+- Comparing more classification models
